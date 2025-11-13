@@ -1,0 +1,22 @@
+========== THỐNG KÊ FILE TRONG ZIP ==========
+Tổng số file: 4738
+
+.7z: 1 file
+.css: 14 file
+.doc: 119 file
+.docx: 70 file
+.ds_store: 20 file
+.gif: 10 file
+.html: 2335 file
+.ico: 2 file
+.jpg: 77 file
+.js: 21 file
+.pdf: 728 file
+.png: 57 file
+.rar: 24 file
+.txt: 1 file
+.xls: 2 file
+.xlsx: 4 file
+.zip: 5 file
+
+file rác: 1248 file
