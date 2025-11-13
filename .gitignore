@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python virtual environment
+venv/
+.env/
+.env.*
+
+# VSCode / IDE config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+data/embeddings/
+
+# Models (Ollama manages Gemma locally)
+models/
+models/fine_tuned/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
