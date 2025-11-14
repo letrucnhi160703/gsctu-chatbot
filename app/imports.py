@@ -101,8 +101,7 @@ from langchain_cohere import ChatCohere, CohereEmbeddings
 from pdfminer.high_level import extract_text
 from langchain_core.documents import Document
 from langchain_core.prompts.chat import ChatPromptTemplate
-from langchain.chains.llm import LLMChain
-
+from langchain.chains import LLMChain
 from langchain.schema.output_parser import StrOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import PromptTemplate
@@ -130,7 +129,7 @@ base_embedd = CohereEmbeddings(cohere_api_key=api_key, model="embed-multilingual
 # URL API của Rasa (thay đổi địa chỉ IP và cổng nếu khác)
 RASA_API_URL = "http://127.0.0.1:5005/webhooks/rest/webhook"
 current_directory = os.getcwd()
-path_default_document = os.path.join(current_directory, 'data\\documents_short.txt')
+path_default_document = os.path.join(current_directory, 'app\\data\\documents_short.txt')
 path_for_FAISS = os.path.join(current_directory, 'FAISS_DB')
 datenow = datetime.now()
 formatted_time = datenow.strftime('%d-%m-%Y-%H-%M-%S')

@@ -342,7 +342,8 @@ def check_spell():
     if not user_question.strip():
         return jsonify({"error": "Câu hỏi không được để trống."}), 400
     try:
-        response = _correct(user_question)
+        # response = _correct(user_question)
+        response = user_question
         # print(f"Câu sửa lỗi: {response}")
         return jsonify({"response": response})  
     except Exception as e:
@@ -377,17 +378,17 @@ def send_message():
         chat_history.extend([HumanMessage(content=qa.get('human')),qa.get('ai')])
 
     bot_reply = ''
-    post_data = {"sender": "user", "message": user_message}
-    rasa_response = requests.post(RASA_API_URL, json=post_data)
-    rasa_response.raise_for_status()
+    # post_data = {"sender": "user", "message": user_message}
+    # rasa_response = requests.post(RASA_API_URL, json=post_data)
+    # rasa_response.raise_for_status()
 
-    """Xử lý phản hồi từ Rasa"""
-    if rasa_response.status_code == 200:
-        rasa_data = rasa_response.json()
-        if rasa_data:
-            bot_reply = rasa_data[0].get('text', '')
-        else:
-            bot_reply = '' 
+    # """Xử lý phản hồi từ Rasa"""
+    # if rasa_response.status_code == 200:
+    #     rasa_data = rasa_response.json()
+    #     if rasa_data:
+    #         bot_reply = rasa_data[0].get('text', '')
+    #     else:
+    #         bot_reply = '' 
 
     print(f"PHẢN HỒI TỪ CHATBOT RASA : {bot_reply}")
 
