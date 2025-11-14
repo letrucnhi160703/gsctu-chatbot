@@ -18,9 +18,10 @@ venv/
 .ipynb_checkpoints/
 
 # Data
-data/raw/
-data/processed/
-data/embeddings/
+dataset/raw/
+dataset/processed/
+dataset/embeddings/
+dataset/faiss_index/*
 
 # Models (Ollama manages Gemma locally)
 models/
@@ -36,6 +37,4 @@ Thumbs.db
 # Python packaging
 *.egg-info/
 dist/
-build/  
-
-split_docs
+build/
