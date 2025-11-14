@@ -410,4 +410,6 @@ if __name__ == '__main__':
     default_faiss_db()
     global docsearch
     docsearch = FAISS.load_local(path_for_FAISS, CohereEmbeddings(cohere_api_key=api_key,model="embed-multilingual-v3.0"),allow_dangerous_deserialization=True)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
+
+    
