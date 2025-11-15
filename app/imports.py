@@ -131,7 +131,7 @@ base_embedd = CohereEmbeddings(cohere_api_key=api_key, model="embed-multilingual
 RASA_API_URL = "http://127.0.0.1:5005/webhooks/rest/webhook"
 current_directory = os.path.dirname(os.path.abspath(__file__))
 path_default_document = os.path.join(current_directory, "data", "documents_short.txt")
-path_for_FAISS = os.path.join(current_directory, "..", "dataset", "faiss_index")
+path_for_FAISS = os.path.join(current_directory, "data", "faiss_index")
 datenow = datetime.now()
 formatted_time = datenow.strftime("%d-%m-%Y-%H-%M-%S")
 folder_split_doc = os.path.join(current_directory, "split_docs")

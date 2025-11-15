@@ -94,21 +94,21 @@ def response_prompt2(user_ques):
 
 
 # load default document
-# def default_faiss_db():
-#     with open(path_default_document, "r", encoding="utf-8") as file:
-#         text = file.read()
-#     chunks = text.split('\n\n')
-#     documents = [Document(page_content=chunk) for chunk in chunks]
-#     index = FAISS.from_documents(
-#                     documents, 
-#                     CohereEmbeddings(cohere_api_key=api_key, model="embed-multilingual-v3.0")
-#                 )
-#     index.save_local(path_for_FAISS)
-#     #save split file
-#     with open(path_for_split_file, 'w', encoding='utf-8') as f:
-#         for doc in documents:
-#             f.write(doc.page_content)
-#             f.write('\n---\n')
+def default_faiss_db():
+    with open(path_default_document, "r", encoding="utf-8") as file:
+        text = file.read()
+    chunks = text.split('\n\n')
+    documents = [Document(page_content=chunk) for chunk in chunks]
+    index = FAISS.from_documents(
+                    documents, 
+                    CohereEmbeddings(cohere_api_key=api_key, model="embed-multilingual-v3.0")
+                )
+    index.save_local(path_for_FAISS)
+    #save split file
+    with open(path_for_split_file, 'w', encoding='utf-8') as f:
+        for doc in documents:
+            f.write(doc.page_content)
+            f.write('\n---\n')
 
 
 #check is file pdf
@@ -401,15 +401,15 @@ def send_message():
 if __name__ == '__main__':
     print("Khởi tạo server.")
     # tạo thư mục spit docs
-    # if not os.path.exists(folder_split_doc):
-    #     os.makedirs(folder_split_doc)
-    #ttạo thư mục upload
-    # if not os.path.exists(UPLOAD_FOLDER):
-    #     os.makedirs(UPLOAD_FOLDER)
+    if not os.path.exists(folder_split_doc):
+        os.makedirs(folder_split_doc)
+    #tạo thư mục upload
+    if not os.path.exists(UPLOAD_FOLDER):
+        os.makedirs(UPLOAD_FOLDER)
 
-    # default_faiss_db()
+    default_faiss_db()
     global docsearch
     docsearch = FAISS.load_local(path_for_FAISS, CohereEmbeddings(cohere_api_key=api_key,model="embed-multilingual-v3.0"),allow_dangerous_deserialization=True)
-    app.run(host='0.0.0.0', port=5001, debug=False)
+    app.run(host='0.0.0.0', port=5002, debug=False)
 
     
