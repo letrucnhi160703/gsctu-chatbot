@@ -136,29 +136,29 @@ Tầng trệt, Dãy D1, Nhà Điều hành Đại học Cần Thơ, Khu 2 đư�
 Admin: Pham Doan An Khuong  Copyright © 2025 - Khoa Sau đại học, Đại học Cần Thơ. All Rights Reserved.
 
 
-Thông tin tuyển sinh trình độ thạc sĩ, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-thac-si.html đây
-Thông tin tuyển sinh trình độ thạc sĩ liên kết trong nước, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-thac-si-lien-ket-trong-nuoc.html đây
-Thông tin tuyển sinh trình độ tiên sĩ, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-tien-si.html đây
-Bổ sung kiến thức trình độ thạc sĩ, xem tại https://gs.ctu.edu.vn/bo-sung-kien-thuc/bo-sung-kien-thuc-cho-trinh-do-thac-si.html đây
-Thông tin đào tạo các lớp triết học, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/cac-lop-triet-hoc.html đây
-Thông tin đăng ký học phần, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/dang-ky-hoc-phan-tkb.html đây
-Thông tin học phí, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/hoc-phi.html đây
-Thông tin học bổng, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/thong-tin-hoc-bong.html đây
-Thông tin các lớp ngoại ngữ B1, B2, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/cac-lop-ngoai-ngu-cap-do-b1-b2.html đây 
-Thông tin lịch thi học kì, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/lich-thi-hoc-ky.html đây
-Thông tin quy định của nhà trường, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-dinh-cua-truong.html đây
-Thông tin quy định của bộ giáo dục và đào tạo, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-dinh-cua-bo-giao-duc-va-dao-tao.html đây
-Thông tin quy trình sau đại học, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-trinh-sau-dai-hoc.html đây 
-Thông tin biểu của học viên cao học, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-cua-hoc-vien-cao-hoc.html đây 
-Thông tin biểu của nghiên cứu sinh, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-cua-nghien-cuu-sinh.html đây 
-Thông tin biểu của nghiên cứu sinh đề án 911, xem tại https://gs.ctu.edu.vn/bieu-mau/nghien-cuu-sinh-de-an-911.html đây 
-Thông tin các biểu mẫu tuyển sinh, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-tuyen-sinh.html đây 
-Thông tin tốt nghiệp, xem tại https://gs.ctu.edu.vn/thong-tin-tot-nghiep.html đây 
-Hệ thống quản quản lý và đào tạo, xem tại https://accounts.ctu.edu.vn/authenticationendpoint/login.do?RelayState=https%3A%2F%2Fhtql.ctu.edu.vn%2Fhtql%2Fdetect_sso.php&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&sessionDataKey=12ac3c28-971a-43ba-a104-61e8f4988393&relyingParty=CTU_SP&type=samlsso&sp=CTU_SP&spId=3ac09b7b-b6ac-45bc-938d-8e0210e979de&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL đây
+Thông tin tuyển sinh trình độ thạc sĩ, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-thac-si.html ở đây
+Thông tin tuyển sinh trình độ thạc sĩ liên kết trong nước, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-thac-si-lien-ket-trong-nuoc.html ở đây
+Thông tin tuyển sinh trình độ tiên sĩ, xem tại https://gs.ctu.edu.vn/tuyen-sinh/trinh-do-tien-si.html ở đây
+Bổ sung kiến thức trình độ thạc sĩ, xem tại https://gs.ctu.edu.vn/bo-sung-kien-thuc/bo-sung-kien-thuc-cho-trinh-do-thac-si.html ở đây
+Thông tin đào tạo các lớp triết học, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/cac-lop-triet-hoc.html ở đây
+Thông tin đăng ký học phần, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/dang-ky-hoc-phan-tkb.html ở đây
+Thông tin học phí, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/hoc-phi.html ở đây
+Thông tin học bổng, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/thong-tin-hoc-bong.html ở đây
+Thông tin các lớp ngoại ngữ B1, B2, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/cac-lop-ngoai-ngu-cap-do-b1-b2.html ở đây 
+Thông tin lịch thi học kì, xem tại https://gs.ctu.edu.vn/thong-tin-dao-tao/lich-thi-hoc-ky.html ở đây
+Thông tin quy định của nhà trường, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-dinh-cua-truong.html ở đây
+Thông tin quy định của bộ giáo dục và đào tạo, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-dinh-cua-bo-giao-duc-va-dao-tao.html ở đây
+Thông tin quy trình sau đại học, xem tại https://gs.ctu.edu.vn/quy-dinh/quy-trinh-sau-dai-hoc.html ở đây 
+Thông tin biểu của học viên cao học, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-cua-hoc-vien-cao-hoc.html ở đây 
+Thông tin biểu của nghiên cứu sinh, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-cua-nghien-cuu-sinh.html ở đây 
+Thông tin biểu của nghiên cứu sinh đề án 911, xem tại https://gs.ctu.edu.vn/bieu-mau/nghien-cuu-sinh-de-an-911.html ở đây 
+Thông tin các biểu mẫu tuyển sinh, xem tại https://gs.ctu.edu.vn/bieu-mau/bieu-mau-tuyen-sinh.html ở đây 
+Thông tin tốt nghiệp, xem tại https://gs.ctu.edu.vn/thong-tin-tot-nghiep.html ở đây 
+Hệ thống quản quản lý và đào tạo, xem tại https://accounts.ctu.edu.vn/authenticationendpoint/login.do?RelayState=https%3A%2F%2Fhtql.ctu.edu.vn%2Fhtql%2Fdetect_sso.php&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&sessionDataKey=12ac3c28-971a-43ba-a104-61e8f4988393&relyingParty=CTU_SP&type=samlsso&sp=CTU_SP&spId=3ac09b7b-b6ac-45bc-938d-8e0210e979de&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL ở đây
 
-Thông tin chương trình đào tạo sau đại học, xem tại https://www.ctu.edu.vn/chuong-trinh-dao-tao-sau-dai-hoc.html đây 
-Thông tin liên hệ, xem tại https://gs.ctu.edu.vn/lien-he.html đây 
-Trang website của khoa sau đại học xem tại https://gs.ctu.edu.vn/ đây
+Thông tin chương trình đào tạo sau đại học, xem tại https://www.ctu.edu.vn/chuong-trinh-dao-tao-sau-dai-hoc.html ở đây 
+Thông tin liên hệ, xem tại https://gs.ctu.edu.vn/lien-he.html ở đây 
+Trang website của khoa sau đại học xem tại https://gs.ctu.edu.vn/ ở đây
 
 Giới thiệu về Trường Đại học Cần Thơ (CTU)
 Lịch sử & Quy mô

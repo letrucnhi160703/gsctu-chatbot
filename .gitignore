@@ -21,7 +21,6 @@ venv/
 dataset/raw/
 dataset/processed/
 dataset/embeddings/
-dataset/faiss_index/*
 
 # Models (Ollama manages Gemma locally)
 models/
