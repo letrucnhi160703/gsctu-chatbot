@@ -13,7 +13,7 @@ def load_text(path):
         return f.read()
 
 
-def split_into_chunks(text, chunk_size=500, chunk_overlap=50):
+def split_into_chunks(text, chunk_size=512, chunk_overlap=20):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
     )
