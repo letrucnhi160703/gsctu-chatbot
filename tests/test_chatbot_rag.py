@@ -32,21 +32,21 @@ llm = ChatOllama(model=LLM_MODEL_NAME, temperature=0.1)
 rag_prompt = PromptTemplate(
     input_variables=["context", "question"],
     template="""
-Bạn là trợ lý AI có khả năng trả lời chính xác dựa trên tài liệu.
+        Bạn là trợ lý AI có khả năng trả lời chính xác dựa trên tài liệu.
 
-===== NGỮ CẢNH =====
-{context}
-===== HẾT NGỮ CẢNH =====
+        ===== NGỮ CẢNH =====
+        {context}
+        ===== HẾT NGỮ CẢNH =====
 
-Câu hỏi: {question}
+        Câu hỏi: {question}
 
-YÊU CẦU:
-- Chỉ dùng thông tin trong ngữ cảnh.
-- Nếu ngữ cảnh không chứa câu trả lời, hãy nói: "Trong dữ liệu hiện có không thấy thông tin về vấn đề này."
-- Trả lời ngắn gọn, tiếng Việt rõ ràng.
+        YÊU CẦU:
+        - Chỉ dùng thông tin trong ngữ cảnh.
+        - Nếu ngữ cảnh không chứa câu trả lời, hãy nói: "Trong dữ liệu hiện có không thấy thông tin về vấn đề này."
+        - Trả lời ngắn gọn, tiếng Việt rõ ràng.
 
-Trả lời:
-""",
+        Trả lời:
+        """,
 )
 
 qa = RetrievalQA.from_chain_type(
