@@ -35,7 +35,7 @@ def scrape_species_detail(url):
 
 ######## MAIN ########
 # Manually set max_page based on observation
-max_page = 1
+max_page = 8
 
 all_links = []
 

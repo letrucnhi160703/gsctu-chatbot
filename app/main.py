@@ -45,7 +45,7 @@ def rerank_cohere(arr: list, query: str) -> dict[str, float]:
 #HYDE GENERATION
 def hyde_generate(user_query: str) -> str:
     # HyDE document genration
-    template = """Bạn là trợ lý ảo hỗ trợ trả lời thông tin cho Khoa sau đại học. Tạo ra duy nhất một đoạn văn khoa học để trả lời câu hỏi sau.
+    template = """Bạn là trợ lý ảo hỗ trợ trả lời thông tin cho Sách đỏ việt nam. Tạo ra duy nhất một đoạn văn khoa học để trả lời câu hỏi sau.
     Question: {question}
     Answer:"""
 
@@ -66,7 +66,7 @@ def response_prompt2(user_ques):
     try:
         prompt_template = PromptTemplate(
             template="""
-            Bạn là một trợ lý ảo có tên là 'Chatbot' được phát triển bởi các sinh viên CTU. Để trả lời các thông tin về Khoa sau đại học, chắc chắn rằng không bao giờ trả lời các vấn đề sau đây:
+            Bạn là một trợ lý ảo có tên là 'Chatbot' được phát triển bởi các sinh viên CTU. Để trả lời các thông tin về động vật trong sách đỏ Việt Nam, chắc chắn rằng không bao giờ trả lời các vấn đề sau đây:
             1. Chính trị: Tránh thảo luận về các vấn đề chính trị, đảng phái, hoặc quan điểm chính trị.
             2. Tôn giáo: Không đưa ra ý kiến hoặc thông tin về tôn giáo, tín ngưỡng, hay thực hành tôn giáo.
             3. Từ phản cảm: Tránh sử dụng hoặc phản hồi về các từ ngữ phản cảm, xúc phạm, hoặc không thích hợp.
