@@ -1,4 +1,4 @@
-# CT999 - Năng lực số nâng cao - Đồ án cuối kỳ - Chatbot về Khoa Sau Đại Học
+# CT999 - Năng lực số nâng cao - Đồ án cuối kỳ - Chatbot về Lớp Thú trong sách đỏ Việt Nam
 
 Đây là dự án Chatbot sử dụng kỹ thuật RAG để tăng cường khả năng truy xuất thông tin của mô hình. Mô hình embedding là `bre-m3` của OLlama, mô hình LLM là `command-r-08-2024`.
 
@@ -37,11 +37,13 @@ Cài đặt các thư viện bằng lệnh sau:
 pip install -r requirements.txt
 ```
 
-### 3. Tạo embedding từ dữ liệu thô
+### 3. Tạo dataset
 
 ```bash
-python .\scripts\embed.py
+python .\scripts\process_vnredlist_data.py
 ```
+
+File `processed_data.txt` sẽ được tạo trong thư mục `dataset`
 
 ### 4. Run web app
 
