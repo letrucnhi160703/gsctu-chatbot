@@ -44,6 +44,7 @@ python .\scripts\process_vnredlist_data.py
 ```
 
 File `processed_data.txt` sẽ được tạo trong thư mục `dataset`
+Copy nội dung file `processed_data.txt` vào `/data/documents_short.txt`
 
 ### 4. Run web app
 
